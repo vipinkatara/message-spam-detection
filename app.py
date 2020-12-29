@@ -3,7 +3,7 @@ import pickle
 
 
 #loading model from disk
-filename = 'hamSpam_SVM_BOW.pkl'
+filename = 'hamSpam_mlt_BOW.pkl'
 clf = pickle.load(open(filename,'rb'))
 cv = pickle.load(open('transform.pkl','rb'))
 
